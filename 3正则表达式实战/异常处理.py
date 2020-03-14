@@ -8,7 +8,7 @@
 import urllib.request
 import urllib.error
 try:
-    urllib.request.urlopen("http://google.com")
+    urllib.request.urlopen("http://baidu.com")
 except urllib.error.URLError as e:
     if hasattr(e,"reason"):
         print(e.reason)
