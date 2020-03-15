@@ -1,0 +1,39 @@
+https://search.jd.com/Search?keyword=%E8%BF%9E%E8%A1%A3%E8%A3%99&enc=utf-8&suggest=1.def.0.V14--12s0,20s0,38s0,97s0&wq=Lianyiqun&pvid=dac9ab33de604b2a8017b5b8e3b1ee39
+
+https://search.jd.com/Search?keyword=%E8%BF%9E%E8%A1%A3%E8%A3%99&enc=utf-8&suggest=1.def.0.V14--12s0,20s0,38s0,97s0&page=5
+
+url=https://search.jd.com/Search?keyword=关键词&enc=utf-8&suggest=1.def.0.V14--12s0,20s0,38s0,97s0&page=页数（1,3,5,7）
+
+https://search.jd.com/Search?keyword=%E8%BF%9E%E8%A1%A3%E8%A3%99&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&suggest=1.def.0.V14--12s0%2C20s0%2C38s0%2C97s0&wq=Lianyiqun&page=3&s=61&click=0
+
+https://search.jd.com/Search?keyword=%E8%BF%9E%E8%A1%A3%E8%A3%99&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&suggest=1.def.0.V14--12s0%2C20s0%2C38s0%2C97s0&wq=Lianyiqun&page=5&s=121&click=0
+
+https://search.jd.com/Search?keyword=%E8%BF%9E%E8%A1%A3%E8%A3%99&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&suggest=1.def.0.V14--12s0%2C20s0%2C38s0%2C97s0&wq=Lianyiqun&page=7&s=181&click=0
+
+https://search.jd.com/Search?keyword=%E8%BF%9E%E8%A1%A3%E8%A3%99&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&suggest=1.def.0.V14--12s0%2C20s0%2C38s0%2C97s0&wq=Lianyiqun&page=9&s=241&click=0
+奇数和+-60控制页码
+
+照片
+<img width="220" height="282" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n8/jfs/t1/96469/4/13355/233905/5e59c98eE7cf3edad/dfd8d9eed3d7fdc5.jpg" />
+n0为原图
+
+控制源图的
+/86306/40/14970/390398/5e6baf22E15393ab9/f1a496825b9e5b3d.jpg
+/96469/4/13355/233905/5e59c98eE7cf3edad/dfd8d9eed3d7fdc5.jpg
+
+http://img11.360buyimg.com/n0/jfs/t1/86306/40/14970/390398/5e6baf22E15393ab9/f1a496825b9e5b3d.jpg
+http://img10.360buyimg.com/n0/jfs/t1/96469/4/13355/233905/5e59c98eE7cf3edad/dfd8d9eed3d7fdc5.jpg
+http://img12.360buyimg.com/n0/jfs/t1/85415/37/15190/186784/5e6c2f0eE85d29c05/7ce4ff27bc96d4b9.jpg
+
+
+
+匹配pat=<img  data-presale="" data-sku="66136311414" data-img="1" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/93737/35/14130/107474/5e61fe17E3fa85c14/dec2f82b46abd2ec.jpg" class="err-product" width="25" height="25" /></a></li>
+
+可用<img  data-presale=""匹配所有样式的图片然后data-skt命名 匹配img的url修改n后面的值
+
+提取到的
+="62191024635" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/104970/32/14809/192461/5e6c3de5E80e8e6f8/cb8f8dc4b5d340ad.jpg
+
+['n9']
+
+http://img14.360buyimg.com/n0/jfs/t1/93737/35/14130/107474/5e61fe17E3fa85c14/dec2f82b46abd2ec.jpg
