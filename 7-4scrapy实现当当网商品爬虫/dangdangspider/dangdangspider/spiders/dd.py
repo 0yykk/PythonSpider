@@ -16,7 +16,7 @@ class DdSpider(scrapy.Spider):
         item["price"]=response.xpath("//span[@class='price_n']/text()").extract()
         #print(item["price"])
         yield item
-        for i in range(2,80):
+        for i in range(2,100):
             url='http://category.dangdang.com/pg'+str(i)+'-cid4008154.html'
             yield Request(url,callback=self.parse)
 
