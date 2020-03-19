@@ -1,0 +1,16 @@
+创建一个scrapy项目
+    scrapy startproject 项目名称
+fetch直接获取一个网页
+runspider直接运行一个爬虫文件
+
+__init__.py  初始化文件
+
+items.py    爬取的目标
+
+middlewares.py 中间件，经过什么访问（代理ip uapools)
+
+pipelines.py  爬后处理数据的文件
+
+settings.py 全局设置文件
+
+
