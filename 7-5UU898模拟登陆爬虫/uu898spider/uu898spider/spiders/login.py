@@ -15,6 +15,11 @@ class LoginSpider(scrapy.Spider):
         return [Request("https://user.uu898.com/Login.aspx",meta={"cookiejar":1},callback=self.parse)]
     def parse(self, response):
         #设置要传递的post信息，此时没有验证码字段
-        data = {
-            
+        data={
+            "UserName":"17061315793",
+            "PassWord":"qwe123456",
         }
+        print("登录中。。。")
+        return [FormRequest.from_response(response,
+                                         #设置cookie信息
+                                        )]
